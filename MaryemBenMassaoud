@@ -6,7 +6,7 @@
 #sudo cp $FILE2 /usr/bin
 #sudo cp $HELP /etc
 #sudo chmod 777 "/usr/bin/functions.sh"
-#sudo chmod 777 "/usr/bin/ZeinebEyaRahmani"
+#sudo chmod 777 "/usr/bin/MaryemBenMassaoud"
 . fonctions.sh
 declare o_arg
 if [[ $1 == "" ]]; then echo "ERROR: no options used "
