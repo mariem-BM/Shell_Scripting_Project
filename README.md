@@ -1,5 +1,5 @@
 # Shell_Scripting_Project
-Creation of a shell application allowing to:
+A shell application allowing to:
 • Display the hardware characteristics of your machine via the
 Pydf and fdisk commands
 ◦ the -p option to run the Pydf command
