@@ -33,7 +33,7 @@ function s_func()
 {
 
 file="$1";
-dest='/home/eya/'
+dest='/home/mariem/'
 #echo "when you're done saving information please write 'exit'"	
 #script $file.txt
 p_func | tee -a>> $dest$file.txt
@@ -62,7 +62,7 @@ echo -e "\n"
     echo -e "\n"
     echo  -n "zeineb eya rahmani "
     echo -e "\n"
-    echo  -n "mariem ben massoud"
+    echo  -n "mariem ben massaoud"
     echo -e "\n"
     timestamp
 }
@@ -71,7 +71,7 @@ function o_func()
 
 
 filename="$1"
-dest='/home/eya/'
+dest='/home/mariem/'
 
 if [ -f "$dest$filename".txt ]; then
 #cat $dest$filename.txt
@@ -89,7 +89,7 @@ fi
 function f_func()
 {
 keyword="$1"
-dest='/home/eya/'
+dest='/home/mariem/'
 #grep "$keyword" $dest$filename.txt
 #grep -r $keyword 
 grep -rn --include=*.txt $keyword $dest
