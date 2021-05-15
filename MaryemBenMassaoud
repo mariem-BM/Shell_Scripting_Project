@@ -24,7 +24,7 @@ else
 			v) v_func;;
 			o) o_arg=$OPTARG ;;
 			f) f_func "$OPTARG";;
-        		#f) grep -rn --include=*.txt $OPTARG '/home/eya/';;
+        		#f) grep -rn --include=*.txt $OPTARG '/home/mariem/';;
         	
 			\?)echo "wrong option";exit 1;;
 		esac
